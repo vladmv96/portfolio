@@ -1,0 +1,203 @@
+nav {
+  position: relative-top;
+  background-color: #FF4500;
+  height: 100px;
+}
+#logo,
+#btn {
+  padding-left: 100px;
+}
+ #button1, #button2, #button3 {
+   margin-top: 25px;
+   margin-left: 5px;
+}
+#middle1 {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  background-color: #FFFF00;
+}
+#middle2 {
+  padding-bottom: 40px;
+  background-color: #FF7F50;
+}
+#middle3 {
+  padding-bottom: 40px;
+  background-color: #CD5C5C;
+}
+body {
+  background-color: #FFA500	;
+  font-family: century gothic;
+}
+.title {
+  text-align: center;
+  font-family: century gothic;
+}
+.title1 {
+  margin-top: 40px;
+  text-align: center;
+}
+#my-photo {
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#about-me {
+  margin-top: 90px;
+}
+
+#line {
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 5px solid red;
+    width: 70%;
+}
+#line2 {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid yellow;
+    width: 70%;
+}
+#line3 {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #FF7F50;
+    width: 70%;
+}
+.screen {
+  width: 90%;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#info {
+  padding-bottom: 40px;
+  background-color: silver;
+}
+.footer {
+  height: 100px;
+  background-color: #FF4500;
+  color: black;
+  text-align: center;
+  padding-top: 25px;
+}
+.row {
+  margin-left: -15px;
+  margin-right: 0px;
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a{
+    text-align:center;
+    width:46px;
+    height:46px;
+    float:left;
+    background:#fff;
+    border:1px solid #ccc;
+    box-shadow:0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius:6px;
+    margin:0 10px 10px 0;
+    padding:6px;
+    color:#000;
+}
+.github a:hover{background:#191919;color:#fff;}
+.youtube a:hover{background:#FF0000;color:#fff;}
+.instagram a:hover{background:#FFA500;color:#fff;}
+.telegram a:hover{background:#249bd7;color:#fff;}
+
+.social {
+  margin-top: 50px;
+  padding-left: 30%;
+}
+.socials {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#logo,
+#logo:active,
+#logo:hover,
+#logo:visited {
+  outline: none!important;
+  block-shadow: none!important;
+  text-decoration: none!important;
+  color: black!important;
+}
+
+.input {
+  margin-top: 10px;
+  height: 60px;
+  width: 80%;
+  font-size: 30px;
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom-color: red;
+  outline: none;
+}
+input::-webkit-input-placeholder { color: #DCDCDC; }
+
+.input-message {
+  padding-bottom: 200px;
+  margin-top: 10px;
+  height: 250px;
+  width: 80%;
+  font-size: 30px;
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom-color: red;
+  outline: none;
+}
+
+#send {
+  height: 70px;
+  width: 200px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+#contact-text {
+  margin-top: 50px;
+  margin-left: 10px;
+  padding-right: 50px;
+}
+
+#made {
+  font-size: 25px;
+  margin-top: 50px;
+  text-align: center;
+}
+nav,
+#middle1,
+#middle2,
+#middle3,
+.footer,
+img
+ {
+  box-shadow:  0 0 20px rgba(0,0,0,0.5);
+}
+
+.icon-bar {
+  background-color: black;
+}
+.navbar-toggle {
+  margin-top: 35px;
+  background: silver;
+}
+
+    ul.nav {
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+
+   }
+   ul.nav li {
+    display: inline-block;
+   }
